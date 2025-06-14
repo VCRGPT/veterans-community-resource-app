@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f8f8f8;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.category-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.category-btn {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #004157;
+  background-color: white;
+  color: #004157;
+  border-radius: 4px;
+  min-width: 110px;
+  text-align: center;
+  user-select: none;
+}
+
+.category-btn:hover {
+  background-color: #004157;
+  color: white;
+}
+
+#types-of-assistance-container {
+  margin-bottom: 30px;
+}
+
+.types-list {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.type-label {
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+.organization {
+  background-color: white;
+  border: 1px solid #aaa;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.org-name {
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.field-line {
+  margin: 5px 0;
+}
+
+.field-title {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.field-content {
+  font-size: 12pt;
+}
+
+a {
+  color: #004157;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
