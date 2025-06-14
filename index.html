@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Veterans Community Resource</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Veterans Community Resource</h1>
+</header>
+
+<div id="category-buttons" class="category-row">
+  <!-- Categories fixed in this exact order -->
+  <button class="category-btn" data-category="Food">Food</button>
+  <button class="category-btn" data-category="Housing">Housing</button>
+  <button class="category-btn" data-category="Rent">Rent</button>
+  <button class="category-btn" data-category="Financial Aid">Financial Aid</button>
+  <button class="category-btn" data-category="Utilities">Utilities</button>
+  <button class="category-btn" data-category="Employment">Employment</button>
+  <button class="category-btn" data-category="Medical">Medical</button>
+  <button class="category-btn" data-category="Veteran Support">Veteran Support</button>
+</div>
+
+<div id="types-of-assistance-container" style="display:none;">
+  <h2>Types of Assistance</h2>
+  <div id="types-of-assistance-list" class="types-list"></div>
+</div>
+
+<div id="results-container" style="display:none;">
+  <h2>Organizations</h2>
+  <div id="results-list"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
